@@ -1,0 +1,14 @@
+/* Carrito.css */
+.CarritoContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Ajusta según tus necesidades */
+  }
+  
+  .fila {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  

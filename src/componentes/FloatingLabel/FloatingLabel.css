@@ -1,0 +1,11 @@
+.FatherFloating{
+    background-color:rgba(0, 128, 0, 0.5);
+    padding: 2rem;
+
+}
+
+.FloatingContainer{
+    padding: 2rem;
+    background-color: rgb(228, 194, 2, 0.9);
+}
+
