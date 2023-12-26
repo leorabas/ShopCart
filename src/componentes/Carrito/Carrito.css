@@ -2,7 +2,8 @@
 .CarritoContainer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; /* Ajusta según tus necesidades */
+    justify-content: space-around; 
+    padding: 1rem;
   }
   
   .fila {

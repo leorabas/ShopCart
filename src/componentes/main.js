@@ -1,4 +1,5 @@
-import Carrito from "./Carrito/Carrito";
+// main.js
+import ButtonAppBar from './AppBar/AppBar';
+import Carrito from './Carrito/Carrito';
 
-
-export default Carrito
+export { Carrito, ButtonAppBar };

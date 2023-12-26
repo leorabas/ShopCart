@@ -1,12 +1,12 @@
+// App.jsx
 import React from 'react';
-import Carrito from './componentes/main';
-
-
+import { Carrito, ButtonAppBar } from './componentes/main';
 
 function App() {
   return (
     <>
-    <Carrito/>
+      <ButtonAppBar />
+      <Carrito />
     </>
   );
 }
