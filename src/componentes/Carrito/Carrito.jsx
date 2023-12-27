@@ -1,11 +1,14 @@
+// C:\Users\Leo\Desktop\Leicho\alkemy\shopcart\shopcart\src\componentes\Carrito\Carrito.jsx
 import React from 'react';
 import './Carrito.css';
-import ListaDeTarjetas from '../Tarjeta/Tarjeta';
+import useCarrito from '../UseCarrito/UseCarrito';
 
 function Carrito() {
+  const { carrito } = useCarrito();  // Asegúrate de que estás importando useCarrito correctamente
+
   return (
     <div className="CarritoContainer">
-      <ListaDeTarjetas/>
+      {carrito}
     </div>
   );
 }

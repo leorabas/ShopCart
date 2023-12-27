@@ -1,12 +1,14 @@
-// App.jsx
-import React from 'react';
-import { Carrito, ButtonAppBar } from './componentes/main';
+import React, { useState } from 'react';
+import { Carrito, ButtonAppBar, ListaDeTarjetas } from './componentes/main';
 
 function App() {
+  const [carrito, setCarrito] = useState(0);
+
   return (
     <>
-      <ButtonAppBar />
-      <Carrito />
+      <ButtonAppBar carrito={carrito} />
+      <Carrito carrito={carrito} />
+      <ListaDeTarjetas setCarrito={setCarrito} />
     </>
   );
 }
